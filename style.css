@@ -1,0 +1,157 @@
+body {
+    background-image: url(joel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px;
+}
+
+.info p {
+    color: #8ae464;
+    font-style: italic;
+}
+
+.container {
+    padding-top: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(0, 149, 255);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(0, 255, 4);
+}
+
+.card {
+    font-size: 20px;
+    background-color: hwb(287 66% 27% / 0.418);
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.b1 {
+    font-weight: 100%;
+    background-color: hwb(287 66% 27% / 0.418);
+    text-align: justify;
+}
+
+.b1 th {
+    text-align: center;
+}
+
+.b1 td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.b2 {
+    background-color: hwb(287 66% 27% / 0.418);
+}
+
+.b3 {
+    background-color: hwb(287 66% 27% / 0.418);
+}
+
+.b4 {
+    background-color: hwb(287 66% 27% / 0.418);
+}
+
+.b5 h2 {
+    text-align: center;
+
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: #000000c6;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: rgb(0, 0, 0);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row>.form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row>.form-group:last-child {
+    margin-right: 0px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width:1000px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.info-text h1 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
